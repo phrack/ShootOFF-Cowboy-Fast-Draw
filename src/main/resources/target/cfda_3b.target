@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target defaultPerceivedWidth="610" defaultPerceivedHeight="610" defaultDistance="4572">
+	<ellipse centerX="302.500000" centerY="230.500000" radiusX="250.000000" radiusY="250.000000" fill="gray">
+	</ellipse>
+	<ellipse centerX="303.500000" centerY="230.500000" radiusX="50.000000" radiusY="50.000000" fill="gray">
+		<tag name="subtarget" value="light" />
+	</ellipse>
+</target>
