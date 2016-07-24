@@ -1,2 +1,4 @@
 # ShootOFF-Cowboy-Fast-Draw
-A plugin for ShootOFF that simulators practice mode with a CFDA #3B target and timer.
+A plugin for ShootOFF that simulates practice mode with a CFDA #3B target and timer. 
+
+When you start the exercise a 3B target will be automatically added to the projector arena. Assuming you have a supported camera and calibrated with the paper pattern, the target will be automatically resized to appear as if it is a 24" x 24" target 15' away. After 10 seconds the center of the target will blink red three times. After three blinks, the target center will turn solid red after a random 2-5 second delay. The target center being solid red is your signal to draw and fire. Once you successfully hit the target the center will turn gray again and the time it took you to draw and fire after red will be display in milliseconds. After 5 seconds the exercise will begin again with three more blinks.
