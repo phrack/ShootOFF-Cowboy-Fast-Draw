@@ -88,8 +88,8 @@ public class CowboyFastDraw extends ProjectorTrainingExerciseBase implements Tra
 			
 			// Center the target
 			Dimension2D d = threeB.getDimension();
-			final double x = (getArenaWidth() / 2) - d.getWidth();
-			final double y = (getArenaHeight() / 2) - d.getHeight();
+			final double x = (getArenaWidth() / 2) - (d.getWidth() / 2);
+			final double y = (getArenaHeight() / 2) - (d.getHeight() / 2);
 			threeB.setPosition(x, y);
 
 			// Find the light
@@ -145,7 +145,7 @@ public class CowboyFastDraw extends ProjectorTrainingExerciseBase implements Tra
 
 	@Override
 	public ExerciseMetadata getInfo() {
-		return new ExerciseMetadata("Cowboy Fast Draw", "1.0", "phrack",
+		return new ExerciseMetadata("Cowboy Fast Draw", "1.1", "phrack",
 				"Simulates Cowboy Fast Draw #3B targets and timers in practice mode.");
 	}
 
